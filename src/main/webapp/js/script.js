@@ -5,5 +5,5 @@
 var appModule = angular.module("shoppingApp", []);
 
 appModule.controller("shoppingController", function($scope) {
-   $scope.testVariable = "blah";
+
 });
