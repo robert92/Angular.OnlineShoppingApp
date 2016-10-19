@@ -1,4 +1,4 @@
-package data;
+package data.model;
 
 /**
  * Created by Robert_Georgescu on 18-Oct-16.
@@ -8,6 +8,12 @@ public class Product {
     private String name;
     private String description;
     private Integer price;
+
+    public Product(String name, String description, Integer price) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
 
     public String getName() {
         return name;
